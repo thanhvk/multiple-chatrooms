@@ -1,0 +1,39 @@
+body {
+	font: 14px 'Open Sans', Arial;
+}
+.chatrooms-container .alert {
+	padding: 10px;
+}
+#current-chatroom {
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+.broadcast {
+	margin: 10px 0;
+}
+.list-custom {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	height: 350px;
+	margin: 0;
+}
+.list-custom li {
+	padding: 5px 10px;
+}
+.list-custom li:nth-child(2n) {
+	background: #f1eded;
+}
+#messages {
+	width: 78%;
+	overflow: auto;
+}
+#rooms {
+	width: 20%;
+}
+#msg {
+	width: 70%;
+	display: inline-block;
+}
+#btn-send {
+	width: 10%;
+}

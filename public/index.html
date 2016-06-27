@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Static server</title>
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container chatrooms-container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="alert alert-success" id="current-chatroom">Current room: <b>Lobby</b></div>
+				<div class="broadcast clearfix">
+					<ul class="list-custom messages pull-left list-unstyled" id="messages"></ul>
+					<ul class="list-custom rooms pull-right list-unstyled" id="rooms"></ul>
+				</div>
+				<form action="" class="form-group" id="chat-box">
+					<input type="text" class="form-control" id="msg">
+					<input type="submit" value="Send" class="btn btn-info" id="btn-send">
+				</form>
+
+				<div class="alert alert-info">
+					<p><b>/room [new room]</b> to change or create new room</p>
+					<p><b>/nick [new nick]</b> to change nick</p>
+				</div>
+			</div>
+		</div>		
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+	<script src="/js/chat.js"></script>
+</body>
+</html>
