@@ -1,6 +1,6 @@
 # Multiple chat rooms app
 
-![alt text](https://github.com/thanhvk/multiple-chatrooms/multiple-chatrooms.png "Multiple chat rooms")
+![alt text](https://github.com/thanhvk/multiple-chatrooms/blob/master/multiple-chatrooms.png "Multiple chat rooms")
 
 # Getting Start
 
